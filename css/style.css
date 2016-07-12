@@ -40,6 +40,8 @@ a {
   height: 600px;
   background-image: url('../images/photobanner.png');
   background-size: cover;
+  height: 500px;
+
   
 }
 
@@ -64,6 +66,13 @@ div.wrapperrainbow {
   padding: 20px 60px;
 }
 
+#section2 {
+  background-color: white;
+  color: black;
+
+}
+
+
 blockquote {
   font-family: Arial;
    margin-top: 50px;
@@ -75,13 +84,46 @@ blockquote {
   border: 3px solid #ccc;
 }
 
+.homeboxes {
+   border: 4px grey;
+  width: 100%;
+}
+
+div.homebox1 {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 200px
+  display: block;
+  float: left;
+
+}
+div.homebox2 {
+ margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 200px
+  display: block;
+
+
+}
+div.homebox3 {
+ margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 200px
+  display: block;
+  float: right;
+
+}
+
 h2 {
  font-family: "Permanent Marker";
   float: left;
   display: block;
   padding: 20px 20px;
   margin: 0;
-  font-size: 30px;
+  font-size: 40px;
 
 }
 
@@ -102,4 +144,14 @@ h2 {
   display: block;
   clear: both;
   content: "";
+}
+
+
+footer {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  color: #aaaaaa;
 }
