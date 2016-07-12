@@ -47,21 +47,32 @@ h1 {
   font-family: "Permanent Marker";
   float: left;
   display: block;
+  padding: 20px 60px;
+  margin: 0;
+  font-size: 40px;
 }
 
 div.wrapperrainbow {
   padding: 20px auto;
   width: 100%;
-  background-color: transparent;
 }
 
 
 .wrappersocial {
   display: block;
   float: right;
-  padding: 20px;
+  padding: 20px 60px;
 }
 
+blockquote {
+   margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 55px;
+  line-height: 50px;
+  border: 3px solid #ccc;
+}
 
 
 .clearfix:after {
