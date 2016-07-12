@@ -65,6 +65,7 @@ div.wrapperrainbow {
 }
 
 blockquote {
+  font-family: Arial;
    margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 50px;
@@ -74,6 +75,15 @@ blockquote {
   border: 3px solid #ccc;
 }
 
+h2 {
+ font-family: "Permanent Marker";
+  float: left;
+  display: block;
+  padding: 20px 20px;
+  margin: 0;
+  font-size: 30px;
+
+}
 
 .clearfix:after {
   content: "";
